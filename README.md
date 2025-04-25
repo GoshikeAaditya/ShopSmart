@@ -1,1 +1,41 @@
-ShopSmart is a versatile Python project designed to streamline product management for e-commerce platforms. Its primary use is to create, manage, and interact with a MySQL database that stores detailed product information, making it ideal for businesses or developers looking to organize and retrieve product data efficiently. The project automatically sets up a database and a products table with a comprehensive schema, including fields for product name, brand, category, price, weight, ingredients, allergens, nutritional information, and availability. Key functionalities include inserting initial product data, adding new products dynamically, and searching for products by their unique ID using Pandas for structured data retrieval. This makes ShopSmart a practical tool for managing inventory, querying product details, and ensuring data consistency in an e-commerce environment. Major highlights include its error handling for database integrity, support for multiple currencies and units, and the ability to handle complex product attributes, making it a robust solution for product data management.
+🛒 ShopSmart
+ShopSmart is a versatile Python-based solution for streamlined product management in e-commerce platforms. It offers an efficient interface for managing product data stored in a MySQL database, supporting operations like insertion, retrieval, and dynamic updates with a robust and scalable schema.
+
+🚀 Features
+✅ Automatic Database Setup: Creates and initializes a MySQL database and products table.
+
+📦 Comprehensive Product Schema: Handles fields like product name, brand, category, price, weight, ingredients, allergens, nutrition, and availability.
+
+🧠 Smart Data Handling: Uses Pandas for clean, structured data retrieval and visualization.
+
+➕ Dynamic Data Insertion: Add new products on the fly.
+
+🔍 ID-based Search: Retrieve product details instantly via product ID.
+
+🌐 Multi-currency & Unit Support: Designed to handle various pricing formats and weight units.
+
+⚠️ Robust Error Handling: Ensures database integrity and prevents duplicate or malformed entries.
+
+📁 Project Structure
+
+ShopSmart/
+│
+├── shopsmart.py         # Main script with database and product logic
+├── config.py            # Database connection configuration
+├── requirements.txt     # Required Python packages
+└── README.md            # This file
+
+⚙️ Customization
+You can modify the schema or extend functionalities like:
+
+Category-specific filtering
+
+Bulk uploads via CSV
+
+REST API integration
+
+📄 License
+This project is licensed under the MIT License. See LICENSE for details.
+
+🤝 Acknowledgements
+Built with ❤️ to help e-commerce developers simplify and standardize their product data workflows.
